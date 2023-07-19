@@ -34,8 +34,7 @@ function randomPoem() {
     return poem;
 }
 
+
+
+//Run to see Poem
 console.log(randomPoem());
-
-//const [line1, line2, line3] = randomPoem (firstSentenceArr.join(" "), secondSentenceArr.join(" "), thirdSentenceArr.join(" "));
-//console.log(randomPoem(line1, line2, line3));
-
