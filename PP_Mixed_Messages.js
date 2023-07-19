@@ -11,8 +11,6 @@ let adverb = ["feircely", "kindly", "hotly", "coldly", "quickly", "slowly", "str
 let verb = ["said", "went", "got", "made", "knew", "thought", "took", "saw", "found", "gave"]; //need 10 verbs
 let synWord = ["the", "and", "or", "of", "with", "in", "at", "some", "all", "is" ];
 
-//After calling a word from word bank remove that item from array to not double use
-
 // First Sentence
 let firstSentenceArr = [];
 firstSentenceArr.push((noun[Math.floor(Math.random()*noun.length)]), (synWord[Math.floor(Math.random()*synWord.length)]), (noun[Math.floor(Math.random()*noun.length)]));
